@@ -25,12 +25,14 @@ This project presents a **minimal end-to-end autonomy loop** to validate that id
 ## What This Micro-Implementation Project Is (and Is Not)
 
 ### What this project demonstrates
+
 - Event-based perception via temporal contrast
 - Spiking-inspired decision making using LIF neurons
 - Closed-loop autonomous navigation
 - Interpretable, reflex-like behavior
 
 ### What this project does NOT attempt
+
 - No learning or training
 - No hardware benchmarking
 - No SLAM or planning
@@ -49,14 +51,17 @@ Environment
 ## Mathematical Foundations
 
 ### Event-Based Vision
+
 Synthetic ON/OFF events are generated using temporal contrast:
 
 $$ΔI = I_t − I_{t−1}$$
 
 ### Spiking Neurons
+
 Leaky Integrate-and-Fire (LIF) dynamics integrate event-driven currents and emit spikes when a threshold is crossed.
 
 ### Action Encoding
+
 Directional neuron activity determines the navigation action.
 
 ## Environment
@@ -99,7 +104,6 @@ Open `implement_minimal.ipynb` and run all the cells.
    https://arxiv.org/abs/2504.08588
 
 ## Conclusion
-
 This project demonstrates how **event-based sensing and spiking dynamics** can form a valid foundation for neuromorphic autonomy at the architectural level.
 
 ##### **Author**: Ayushman Mishra  
